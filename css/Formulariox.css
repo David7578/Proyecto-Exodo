@@ -1,0 +1,70 @@
+html{
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    background-color: #0A97B0;
+}
+.contenedor{
+    max-width: 450px;
+    height: auto;
+    background-color: #B3C8CF;
+    margin: 5% auto;
+    padding-bottom: 16px;
+    box-shadow: 20px 20px 20px #0A5EB0;
+}
+header{
+    width: 100%;
+    text-align: center;
+    padding: 10px 0 5px;
+    border-top: solid 8px #1B1833;
+    margin-bottom: 5px;    
+}
+header H2{
+    font-size: bold;
+    color: #000000;
+    font-size: 18px;
+}
+.Form_registe{
+    padding: 10px 28px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-content: center;
+    background-color: dimgray;
+}
+.btn_accion{
+    display: flex /* posicionamiento*/;
+    justify-content: space-around;
+    margin-top: 16px;
+}
+input, .btn_enviar, .btn_limpiar{
+    background-color: #ffffff;
+    padding: 8px;
+    margin: 8px 0;
+    outline: none;
+    border-radius: 20px;
+    transition: all .5s; /* delay en efecto*/
+}
+input:focus{
+    background-color:#E5E1DA ;
+    box-shadow: 5PX 5PX 3PX #0A97B0;
+}
+.btn_limpiar,.btn_enviar{
+    width: 40%;
+    border-radius: 25px;
+    background-color: #E5E1DA;
+    color: #1d1c1a;
+    margin-left: 30px;
+}
+.btn_enviar:hover, .btn_limpiar:hover{
+    background-color: #0A97B0;
+    color: #1B1833;
+    box-shadow: 10px 10px 15px #0A97B0 ;
+}
+#terminos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
